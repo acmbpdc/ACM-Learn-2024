@@ -124,7 +124,7 @@ return_type function_name(parameters) {
    [**AddNumbers.c**](Functions/AddNumbers.c)
 
 
-2. **Example 2: Find the Factorial of a Number**  
+**Example 2: Find the Factorial of a Number**  
    This function takes an integer as input and calculates the factorial of that number using a loop.
 
    [**Factorial.c**](Functions/Factorial.c)
