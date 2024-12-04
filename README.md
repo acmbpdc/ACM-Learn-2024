@@ -69,22 +69,22 @@ In this section, we will practice performing basic arithmetic operations and wor
 
 This program calculates the sum and difference of two numbers.
 
-- [View Code: AddSub.c](Arithmetic/AddSub.c)
+- [**AddSub.c**](Arithmetic/AddSub.c)
 
 ### Question 1: **Average of Marks**
 
 Write a program that takes input as marks for 6 courses and calculates the average:
 
-- [View Code: AvgMarks.c](Arithmetic/AvgMarks.c)
+- [**AvgMarks.c**](Arithmetic/AvgMarks.c)
 
 ### Question 2: **Operator-Based Calculator**
 
 Write a program that reads two numbers and an operator, then performs the corresponding arithmetic operation (+, -, *, /):
 
-- [View Code: Calc.c](Arithmetic/Calc.c)
+- [**Calc.c**](Arithmetic/Calc.c)
 
 ### Question 3: **Sum of Digits**
 
 Write a program that calculates the sum of the digits of a number:
 
-- [View Code: DigSum.c](Arithmetic/DigSum.c)
+- [**DigSum.c**](Arithmetic/DigSum.c)
