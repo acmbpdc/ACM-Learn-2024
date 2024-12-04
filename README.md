@@ -90,7 +90,7 @@ Write a program that calculates the sum of the digits of a number:
 [**DigSum.c**](Arithmetic/DigSum.c)
 
 
-## Matrices
+## 3. Matrices
 
 In this section, we will work with matrix operations. Let's start by adding matrices and then move on to extracting diagonal elements.
 
@@ -105,4 +105,16 @@ This program demonstrates how to add two matrices as well as taking input for th
 Write a program that prints only the diagonal elements of a matrix:
 
 - [**Diagonal.c**](Matrices/Diagonal.c)
+
+# 4. Functions in C
+
+Functions in C are blocks of code designed to perform specific tasks. They help in breaking down a large program into smaller, manageable pieces and improve code reusability.
+
+Functions can either return a value or not, and they may take parameters as input. In C, a function is declared with the following syntax:
+
+```c
+return_type function_name(parameters) {
+    // body of the function
+}
+
 
