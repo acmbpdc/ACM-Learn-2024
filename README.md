@@ -43,16 +43,30 @@ In C, basic input/output operations are handled using the `stdio.h` library. We 
 
 In this example, we demonstrate how to take input and output simple data types such as integers, floats, and strings.
 
-[**Basic.c**](Input-Output/Basic.c)
+[**Basic.c**](Input-output/Basic.c)
 
 ### Example 2: Gets and Puts function
 
 In this example, we take multiple types of input and print them out. The program takes a student's ID, name, marks, and grade, and then displays them.
 
-[**Gets.c**](Input-Output/Gets.c)
+[**Gets.c**](Input-output/Gets.c)
 
 ### Question 1
 
 Now, it's your turn to try! Write a program that takes a student's ID (integer), name (string), and age (integer), then prints out the entered details.
 
-[**Student.c**](Input-Output/Student.c) 
+[**Student.c**](Input-output/Student.c) 
+
+## 2. Simple Arithmetic and ASCII
+
+In this section, we will practice performing basic arithmetic operations and working with ASCII values in C.
+
+### Key Concepts:
+- Arithmetic operations: Addition, subtraction, multiplication, division
+- ASCII values: Each character in C is represented by a unique integer value (ASCII).
+
+### Example 1: Basic Arithmetic Operations
+
+In this example, we perform some basic arithmetic operations: addition and multiplication.
+
+
