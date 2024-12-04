@@ -116,5 +116,22 @@ Functions can either return a value or not, and they may take parameters as inpu
 return_type function_name(parameters) {
     // body of the function
 }
+```
 
+ **Example 1: Add Two Numbers**  
+   This function takes two integers as input, adds them, and prints the result.
+
+   [**AddNumbers.c**](Functions/AddNumbers.c)
+
+
+2. **Example 2: Find the Factorial of a Number**  
+   This function takes an integer as input and calculates the factorial of that number using a loop.
+
+   [**Factorial.c**](Functions/Factorial.c)
+   
+
+### Practice Question
+
+**Write a function to find the larger of two numbers.**  
+[**FindLarger.c**](Functions/FindLarger.c)
 
