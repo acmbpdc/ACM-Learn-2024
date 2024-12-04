@@ -69,22 +69,40 @@ In this section, we will practice performing basic arithmetic operations and wor
 
 This program calculates the sum and difference of two numbers.
 
-- [**AddSub.c**](Arithmetic/AddSub.c)
+[**AddSub.c**](Arithmetic/AddSub.c)
 
 ### Question 1: **Average of Marks**
 
 Write a program that takes input as marks for 6 courses and calculates the average:
 
-- [**AvgMarks.c**](Arithmetic/AvgMarks.c)
+[**AvgMarks.c**](Arithmetic/AvgMarks.c)
 
 ### Question 2: **Operator-Based Calculator**
 
 Write a program that reads two numbers and an operator, then performs the corresponding arithmetic operation (+, -, *, /):
 
-- [**Calc.c**](Arithmetic/Calc.c)
+[**Calc.c**](Arithmetic/Calc.c)
 
 ### Question 3: **Sum of Digits**
 
 Write a program that calculates the sum of the digits of a number:
 
-- [**DigSum.c**](Arithmetic/DigSum.c)
+[**DigSum.c**](Arithmetic/DigSum.c)
+
+
+## Matrices
+
+In this section, we will work with matrix operations. Let's start by adding matrices and then move on to extracting diagonal elements.
+
+### Example 1: **Addition of Two Matrices**
+
+This program demonstrates how to add two matrices as well as taking input for the matrices.
+
+- [**Add.c**](Matrices/Add.c)
+
+### Question 1: **Diagonal Elements of a Matrix**
+
+Write a program that prints only the diagonal elements of a matrix:
+
+- [**Diagonal.c**](Matrices/Diagonal.c)
+
