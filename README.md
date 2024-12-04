@@ -38,3 +38,21 @@ Understanding the various methods for taking input and displaying output is fund
 
 
 In C, basic input/output operations are handled using the `stdio.h` library. We use functions like `printf()` to display output on the screen and `scanf()` to take input from the user. Understanding how to use these functions effectively is crucial for writing interactive C programs.
+
+### Example 1: Basic Input and Output
+
+In this example, we demonstrate how to take input and output simple data types such as integers, floats, and strings.
+
+[**Basic.c**](Input-Output/Basic.c)
+
+### Example 2: Gets and Puts function
+
+In this example, we take multiple types of input and print them out. The program takes a student's ID, name, marks, and grade, and then displays them.
+
+[**Gets.c**](Input-Output/Gets.c)
+
+### Question 1
+
+Now, it's your turn to try! Write a program that takes a student's ID (integer), name (string), and age (integer), then prints out the entered details.
+
+[**Student.c**](Input-Output/Student.c) 
