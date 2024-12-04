@@ -135,3 +135,26 @@ return_type function_name(parameters) {
 **Write a function to find the larger of two numbers.**  
 [**FindLarger.c**](Functions/FindLarger.c)
 
+## 5. Arrays
+
+In this section, we will learn how to handle arrays in C. Arrays allow you to store multiple values of the same type in a single variable, making it easier to manage large datasets.
+
+### Example 1: Initializing and Printing an Array
+
+This program initializes an array of integers and prints its values.
+
+[**simple_array.c**](Arrays/simple_array.c)
+
+### Example 2: Find the Largest Element in an Array
+
+This program takes an array of integers and finds the largest element in the array.
+
+[**largest_element.c**](Arrays/largest_element.c)
+
+### Question 1: Reverse Array
+
+Write a program that takes a list of integers from the user, stores them in an array, and prints the array in reverse order.
+
+[**Reverse.c**](Arrays/Reverse.c)
+
+
