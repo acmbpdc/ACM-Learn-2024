@@ -10,6 +10,7 @@ In this two-hour session, we will quickly revise the essential C programming con
 - String Operations
 - Pointers
 - Recursion
+- Practice Questions
 
 This session is perfect for beginners. By the end, you’ll be ready to implement these key concepts in your projects and exams!
 
@@ -237,9 +238,42 @@ Generate the nth Fibonacci number using recursion.
 Find the sum of digits of a number using recursion.  
 [**SumOfDigits.c**](Recursion/SumOfDigits.c)
 
----
 
 #### **What’s happening behind the scenes?**
 1. The function keeps calling itself, solving smaller chunks.  
 2. When the base case is reached, the "unwinding" happens (like reverse dominoes).  
 3. The answers combine into the final solution.
+
+---
+
+## **9. Practice Questions**
+
+Here are 5 more challenging practice questions that mix different topics. They will test your understanding of functions, recursion, pointers, and string operations. Try solving them!
+
+---
+
+### **Question 1: String Reversal**
+Write a function to reverse a string using recursion. You should not use any built-in functions like `strrev`. For example, given the input `"hello"`, the output should be `"olleh"`.
+
+---
+
+### **Question 2: Find the Length of a String Without Using `strlen`**
+Write a function that calculates the length of a string without using the `strlen` function. For example, given the input `"abcdef"`, the function should return `6`.
+
+---
+
+### **Question 3: Recursive Power Function**
+Write a recursive function to calculate the power of a number. For example, if the input is `2` and the exponent is `3`, the output should be `8`. (i.e., `2^3 = 8`)
+
+---
+
+### **Question 4: Sum of Elements in an Array Using Pointers**
+Write a function that calculates the sum of all elements in an array using pointers. For example, given the array `{1, 2, 3, 4, 5}`, the function should return `15`.
+
+---
+
+### **Question 5: Count Occurrences of a Character in a String**
+Write a function that counts the number of occurrences of a given character in a string. For example, given the string `"programming"` and the character `'r'`, the function should return `2`.
+
+
+   
