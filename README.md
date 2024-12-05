@@ -157,4 +157,33 @@ Write a program that takes a list of integers from the user, stores them in an a
 
 [**Reverse.c**](Arrays/Reverse.c)
 
+ ## **6: String Operations**
+
+### **String Functions Overview**
+String operations in C involve manipulating sequences of characters that end with a null terminator (`\0`). Several built-in functions in `<string.h>` simplify common string-related tasks like copying, comparing, finding lengths, and concatenating.
+
+---
+
+### **Commonly Used String Functions**
+
+| **String Function** | **Description**                                                                                             |
+|----------------------|-----------------------------------------------------------------------------------------------------------|
+| `strcpy(dest, src)`  | Copies the content of the source string into the destination string.                                       |
+| `strcmp(str1, str2)` | Compares two strings:                                                                                     |
+|                      | - Returns an integer < 0 if `str1` < `str2`.                                                              |
+|                      | - Returns an integer > 0 if `str1` > `str2`.                                                              |
+|                      | - Returns 0 if `str1` == `str2`.                                                                          |
+| `strlen(str)`        | Returns the length of the string (excluding the `\0` character).                                          |
+| `strcat(str1, str2)` | Concatenates `str2` to `str1`, storing the resultant string in `str1`.                                     |
+
+> **Note**: Include `<string.h>` to use these functions. Always allocate enough space for the null character (`\0`) in your strings. For example:
+> ```c
+> char string[5]; // This can store up to 4 characters, with the 5th slot reserved for '\0'.
+> ```
+
+---
+
+### **Example Code**
+For a demonstration of all the above functions, please take a look at the file: 
+[**all_funcs.c**](StringFunctions/all_funcs.c)
 
