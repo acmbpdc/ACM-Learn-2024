@@ -197,15 +197,15 @@ Pointers are variables that store the memory address of another variable. They a
 
 #### **Example 1: Basic Pointer Operations**
 This example demonstrates the basic use of pointers to store and access a variable's address and value.  
-**File**: [Pointers/PointerBasics.c](Pointers/PointerBasics.c)
+[**PointerBasics.c**](Pointers/PointerBasics.c)
 
 #### **Example 2: Pointer Arithmetic**
 This example shows how pointer arithmetic can be used to traverse an array.  
-**File**: [Pointers/PointerArithmetic.c](Pointers/PointerArithmetic.c)
+[**PointerArithmetic.c**](Pointers/PointerArithmetic.c)
 
 #### **Example 3: Swapping Two Values Using Pointers**
 This example demonstrates how pointers can be used to swap the values of two variables.  
-**File**: [Pointers/SwapWithPointers.c](Pointers/SwapWithPointers.c)
+[**SwapWithPointers.c**](Pointers/SwapWithPointers.c)
 
 ---
 
