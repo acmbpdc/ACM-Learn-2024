@@ -6,9 +6,9 @@ In this two-hour session, we will quickly revise the essential C programming con
 - Simple arithmetic and ASCII operations
 - Matrices
 - Functions
+- Arrays
 - String Operations
 - Pointers
-- Structures
 - Recursion
 
 This session is perfect for beginners. By the end, you’ll be ready to implement these key concepts in your projects and exams!
