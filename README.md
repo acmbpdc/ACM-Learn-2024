@@ -213,3 +213,33 @@ This example demonstrates how pointers can be used to swap the values of two var
 1. **Pointers and Arrays**: Arrays and pointers are closely related. Pointer arithmetic can be used to navigate arrays.
 2. **Swapping with Pointers**: Pointers allow direct manipulation of values, making swapping efficient.
 3. **Safety**: Always ensure proper initialization of pointers and avoid dereferencing uninitialized or null pointers.
+
+---
+
+## **8. Recursion**
+
+Recursion is like a magical spell where a function calls itself! It’s like standing between two mirrors and seeing infinite reflections—but with an exit strategy. In programming, recursion breaks down a problem into smaller instances of itself until it reaches a simple base case (the "exit strategy").  
+
+Here’s a simple way to think about it:  
+- You solve the *smallest version* of a problem (base case).  
+- Use that to build up the solution to the bigger problem.  
+
+---
+#### **Example 1: Factorial of a Number**  
+Calculate the factorial of a number `n` using recursion.  
+[**Factorial.c**](Recursion/Factorial.c)
+
+#### **Example 2: Fibonacci Sequence**  
+Generate the nth Fibonacci number using recursion.  
+[**Fibonacci.c**](Recursion/Fibonacci.c)
+
+#### **Example 3: Sum of Digits**  
+Find the sum of digits of a number using recursion.  
+[**SumOfDigits.c**](Recursion/SumOfDigits.c)
+
+---
+
+#### **What’s happening behind the scenes?**
+1. The function keeps calling itself, solving smaller chunks.  
+2. When the base case is reached, the "unwinding" happens (like reverse dominoes).  
+3. The answers combine into the final solution.
