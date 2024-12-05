@@ -99,13 +99,13 @@ In this section, we will work with matrix operations. Let's start by adding matr
 
 This program demonstrates how to add two matrices as well as taking input for the matrices.
 
-- [**Add.c**](Matrices/Add.c)
+[**Add.c**](Matrices/Add.c)
 
 ### Question 1: **Diagonal Elements of a Matrix**
 
 Write a program that prints only the diagonal elements of a matrix:
 
-- [**Diagonal.c**](Matrices/Diagonal.c)
+[**Diagonal.c**](Matrices/Diagonal.c)
 
 # 4. Functions in C
 
@@ -254,30 +254,34 @@ Here are 5 more challenging practice questions that mix different topics. They w
 ### **Question 1: String Reversal**
 Write a function to reverse a string using recursion. You should not use any built-in functions like `strrev`. For example, given the input `"hello"`, the output should be `"olleh"`.
 
-[Question 1 - Function Practice](Practice/Question1.c)
+[Answer 1 - Function Practice](Practice/Question1.c)
+
 ---
 
 ### **Question 2: Find the Length of a String Without Using `strlen`**
 Write a function that calculates the length of a string without using the `strlen` function. For example, given the input `"abcdef"`, the function should return `6`.
 
-[Question 2 - String Operations](Practice/Question2.c)
+[Answer 2 - String Operations](Practice/Question2.c)
+
 ---
 
 ### **Question 3: Recursive Power Function**
 Write a recursive function to calculate the power of a number. For example, if the input is `2` and the exponent is `3`, the output should be `8`. (i.e., `2^3 = 8`)
 
-[Question 3 - Pointers](Practice/Question3.c)
+[Answer 3 - Pointers](Practice/Question3.c)
+
 ---
 
 ### **Question 4: Sum of Elements in an Array Using Pointers**
 Write a function that calculates the sum of all elements in an array using pointers. For example, given the array `{1, 2, 3, 4, 5}`, the function should return `15`.
 
-[Question 4 - Recursion](Practice/Question4.c)
+[Answer 4 - Recursion](Practice/Question4.c)
+
 ---
 
 ### **Question 5: Count Occurrences of a Character in a String**
 Write a function that counts the number of occurrences of a given character in a string. For example, given the string `"programming"` and the character `'r'`, the function should return `2`.
 
-[Question 5 - Mixed Concepts](Practice/Question5.c)
+[Answer 5 - Mixed Concepts](Practice/Question5.c)
 
    
