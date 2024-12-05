@@ -187,3 +187,29 @@ String operations in C involve manipulating sequences of characters that end wit
 For a demonstration of all the above functions, please take a look at the file: 
 [**all_funcs.c**](StringFunctions/all_funcs.c)
 
+## **7. Pointers**
+Pointers are variables that store the memory address of another variable. They are powerful tools in C that allow you to directly manipulate memory, create dynamic data structures, and optimize program performance.
+
+### **Key Concepts**
+- **Declaration**: `int *p;` declares a pointer to an integer.
+- **Initialization**: Use the address-of operator (`&`) to assign an address to a pointer: `p = &var;`.
+- **Dereferencing**: Access the value stored at the memory location using the dereference operator (`*`): `*p`.
+
+#### **Example 1: Basic Pointer Operations**
+This example demonstrates the basic use of pointers to store and access a variable's address and value.  
+**File**: [Pointers/PointerBasics.c](Pointers/PointerBasics.c)
+
+#### **Example 2: Pointer Arithmetic**
+This example shows how pointer arithmetic can be used to traverse an array.  
+**File**: [Pointers/PointerArithmetic.c](Pointers/PointerArithmetic.c)
+
+#### **Example 3: Swapping Two Values Using Pointers**
+This example demonstrates how pointers can be used to swap the values of two variables.  
+**File**: [Pointers/SwapWithPointers.c](Pointers/SwapWithPointers.c)
+
+---
+
+### **Key Takeaways**
+1. **Pointers and Arrays**: Arrays and pointers are closely related. Pointer arithmetic can be used to navigate arrays.
+2. **Swapping with Pointers**: Pointers allow direct manipulation of values, making swapping efficient.
+3. **Safety**: Always ensure proper initialization of pointers and avoid dereferencing uninitialized or null pointers.
