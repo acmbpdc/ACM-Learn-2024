@@ -1,14 +1,12 @@
 #include <stdio.h>
-#include <string.h>
 
-// Function to reverse a string
-void reverseString(char str[]) {
-    int length = strlen(str);
-    for (int i = 0; i < length / 2; i++) {
-        char temp = str[i];
-        str[i] = str[length - i - 1];
-        str[length - i - 1] = temp;
+// Function to calculate the length of a string without using strlen
+int stringLength(char str[]) {
+    int length = 0;
+    while (str[length] != '\0') {
+        length++;
     }
+    return length;
 }
 
 int main() {
@@ -16,8 +14,7 @@ int main() {
     printf("Enter a string: ");
     scanf("%s", str);
     
-    reverseString(str);
-    printf("Reversed string: %s\n", str);
+    printf("Length of the string: %d\n", stringLength(str));
     
     return 0;
 }
