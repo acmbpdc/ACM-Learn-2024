@@ -1,33 +1,24 @@
 #include <stdio.h>
-#include <string.h>
-#include <ctype.h>
 
-// Function to check if the string is a palindrome using recursion
-int isPalindrome(char str[], int start, int end) {
-    // Base case: If start index crosses or equals the end index
-    if (start >= end) {
-        return 1;
+// Function to count occurrences of a character in a string
+int countOccurrences(char str[], char c) {
+    int count = 0;
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] == c) {
+            count++;
+        }
     }
-    
-    // If the characters don't match, it's not a palindrome
-    if (tolower(str[start]) != tolower(str[end])) {
-        return 0;
-    }
-    
-    return isPalindrome(str, start + 1, end - 1);
+    return count;
 }
 
 int main() {
-    char str[100];
+    char str[100], c;
     printf("Enter a string: ");
     scanf("%s", str);
+    printf("Enter a character to count occurrences: ");
+    scanf(" %c", &c);
     
-    int length = strlen(str);
-    if (isPalindrome(str, 0, length - 1)) {
-        printf("The string is a palindrome.\n");
-    } else {
-        printf("The string is not a palindrome.\n");
-    }
+    printf("The character '%c' appears %d times in the string.\n", c, countOccurrences(str, c));
     
     return 0;
 }
