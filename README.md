@@ -21,8 +21,16 @@ It's important to have a clear idea of how logic works in C.
 The main aim of this session is to help you learn how to convert your logic into executable code.
 For reference, check out the ACM foundations docs [here!](https://foundations.acmbpdc.org/Beginner-1/)
 
-## Libraries to Include
+## How to Run the Programs
 
+**Compiling and Running**
+1. Open a terminal in the folder where the `.c` file is located.
+2. Compile using:
+   ```bash
+   cc -o output_name file_name.c
+   ./output_name  ```
+
+## Libraries to Include
 Before we start coding, ensure you include the necessary libraries in your program:
 
 ```c
