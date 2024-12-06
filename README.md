@@ -10,6 +10,7 @@ In this two-hour session, we will quickly revise the essential C programming con
 - String Operations
 - Pointers
 - Recursion
+- Structures
 - Practice Questions
 
 This session is perfect for beginners. By the end, you’ll be ready to implement these key concepts in your projects and exams!
@@ -245,8 +246,27 @@ Find the sum of digits of a number using recursion.
 3. The answers combine into the final solution.
 
 ---
+## **9. Structures**
 
-## **9. Practice Questions**
+Structures in C allow you to combine variables of different data types into a single entity. This is especially useful for organizing complex data like employee records, student information, etc. 
+
+### **Key Features of Structures:**
+- A structure groups related variables together under a single name.
+- Each variable in the structure is called a "member."
+- Structures can hold multiple data types.
+
+**Example 1: Basic Student Structure**
+
+This example demonstrates how to define a structure for student details and use it to store and display data.  
+[Basic Student Structure](Structures/BasicStudent.c)
+
+**Example 2: Employee Database Using Structures and Arrays**
+
+This example showcases how to use structures and arrays together to manage an employee database.  
+[Employee Database](Structures/EmployeeDatabase.c)
+
+---
+## **10. Practice Questions**
 
 Here are 5 more challenging practice questions that mix different topics. They will test your understanding of functions, recursion, pointers, and string operations. Try solving them!
 
