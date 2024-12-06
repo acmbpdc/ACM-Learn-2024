@@ -15,6 +15,12 @@ In this two-hour session, we will quickly revise the essential C programming con
 
 This session is perfect for beginners. By the end, you’ll be ready to implement these key concepts in your projects and exams!
 
+## For the beginners
+
+It's important to have a clear idea of how logic works in C.
+The main aim of this session is to help you learn how to convert your logic into executable code.
+For reference, check out the ACM foundations docs [here!](https://foundations.acmbpdc.org/Beginner-1/)
+
 ## Libraries to Include
 
 Before we start coding, ensure you include the necessary libraries in your program:
