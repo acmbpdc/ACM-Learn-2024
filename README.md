@@ -28,7 +28,7 @@ For reference, check out the ACM foundations docs [here!](https://foundations.ac
 2. Compile using:
    ```bash
    cc -o output_name file_name.c
-   ./output_name  ```
+   ./output_name  
 
 ## Libraries to Include
 Before we start coding, ensure you include the necessary libraries in your program:
