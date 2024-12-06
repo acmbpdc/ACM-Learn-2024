@@ -7,7 +7,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &number);
 
-    // Displaying the square of the number
+    // Displaying the number
     printf("The entered number is %d\n", number);
 
     return 0;
