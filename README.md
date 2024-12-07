@@ -63,7 +63,7 @@ In this example, we demonstrate how to take input and output simple data types s
 
 ### Example 2: Gets and Puts function
 
-In this example, we take multiple types of input and print them out. The program takes a student's ID, name, marks, and grade, and then displays them.
+In this example, we take multiple types of input and print them out. We use gets and puts functions here.
 
 [**Gets.c**](Input-output/Gets.c)
 
