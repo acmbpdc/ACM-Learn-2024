@@ -6,6 +6,7 @@ int main() {
     int sum = a + b;
     int diff = a - b;
     printf("Sum: %d\n", sum);
-    printf("Product: %d\n", diff);
+
+    printf("Difference: %d\n", diff);
     return 0;
 }
